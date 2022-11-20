@@ -1,18 +1,17 @@
-import { Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import ArticleListPage from "./pages/ArticleListPage";
-import DetailArticle from "./pages/DetailArticle";
+import Login from './components/Login'
+import  { BrowserRouter, Routes, Route} from 'react-router-dom'
+import Registrasi from './components/Registrasi'
 
 function App() {
+ 
   return (
-    <div className="App">
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/article" element={<ArticleListPage />} />
-        <Route path="/detail/:id" element={<DetailArticle />} />
+        <Route path='/' element={<Login />} />
+        <Route path='/registrasi' element={<Registrasi />} />
       </Routes>
-    </div>
-  );
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App
