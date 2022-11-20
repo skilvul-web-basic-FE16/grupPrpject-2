@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="row row-cols-lg-3 row-cols-1 justify-content-between">
           <div className="col col-lg-6 mb-lg-0 mb-4">
             <h2 className="fw-bold text-white mb-3 ">Menthy</h2>
-            <p className="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptas laborum sequi iste a repellat perspiciatis commodi quisquam eligendi repellendus?</p>
+            <p className="text-white-50">Wellcome to Menthy, Partner Kesehatan Mentalmu</p>
           </div>
           <div className="col col-lg-2 d-flex flex-column mb-lg-0 mb-4">
             <h5 className="fw-bold text-white">Menus</h5>
